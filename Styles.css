@@ -22,7 +22,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     color: white;
-    height: 65px;
+    height: 50px;
 }
 .nav-country{
     display: flex;
@@ -45,7 +45,7 @@ nav{
     max-width: 1300px;
     border-radius: 5px;
     margin-left: 15px;
-    height: 50px;
+    height: 35px;
 }
 .nav-search-category{
     display: flex;
@@ -53,29 +53,29 @@ nav{
     align-items: center;
     background: #9c97979a;
     gap: 5px;
-    height: 50px;
+    height: 35px;
 }
 .nav-search-input{
     padding: none;
     outline: none;
     padding-left: 20px;
     width: 100%;
-    height: 50px;
+    height: 35px;
     border: none;
 }
 .nav-search-icon{
-    width: 45px;
+    width: 35px;
     background: #da8e1bde;
     border-radius: 0 4px 4px 0;
     padding: 8px;
-    height: 50px;
+    height: 35px;
     color: black;
 }
 .nav-language{
     display: flex;
     align-items: center;
     gap: 2px;
-    font-weight: 600;
+    font-weight: 400;
     margin-left: 15px;
 }
 .nav-text{
@@ -85,6 +85,9 @@ nav{
 .nav-text2{
   line-height: 18px;
   margin-left: 20px;
+}
+h5{
+    color: white;
 }
 .nav-cart{
     margin-left: 20px;
@@ -264,7 +267,8 @@ nav{
     .footnote3{
         max-width: 100%;
         height: 350px;
-        background: #1e2631;
+        background: #232f3e;
+        color: #0f1111;
         margin: 0 20px;
     } 
     .footnote03{
@@ -284,6 +288,84 @@ nav{
         text-decoration: underline;
         cursor: pointer;
     }
-
+    .footnote4{
+        max-width: 100%;
+        height: 100px;
+        background: #232f3e;
+        color: #0f1111;
+        margin: 0 20px;
+    }
+    .footnote04{
+        display: flex;
+        padding: 20px 20px;
+        gap: 10px;
+        max-width: 100%;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .footnote04 button{
+        color: rgb(255, 255, 255);
+        background: #232f3e;
+        width: 130px;
+        height: 35px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    .footer{
+        background: #131921;
+        height: 500px;
+        margin: 0 20px;
+    }
+    .footerinfo{
+        display: flex;
+        justify-content: start;
+        gap: 65px;
+        color: rgb(163, 159, 159);
+        padding-top: 20px;
+        margin-left: 120px;
+    }
+    .footerinfo span{
+        color: white;
+    }
+    .footlogo{
+        margin-right: 60px;
+        margin-top: 10px;
+        width: 80px;
+    }
+    .footernote{
+        margin: 20px 20px;
+    }
+    .footernote1{
+        display: flex;
+        color: white;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .footernote1 span{
+        position: absolute;
+        z-index: 1;
+        border: none;
+        color: rgb(0, 17, 255);
+    
+    }
+    .footernote1 button{
+        position: relative;
+        left: -3px;
+        top: -1px;
+        padding-left: 10px;
+        text-align: center;
+        z-index: 0;
+        width: 25px;
+        border: none;
+        background: rgb(0, 157, 255);
+        color: white;
+        border-radius: 25px;
+        height: 12px;
+        font-size: 9px;
+        
+    }
 
 
