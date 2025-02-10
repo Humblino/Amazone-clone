@@ -313,15 +313,15 @@ h5{
         border-radius: 5px;
     }
     .footer{
-        background: #131921;
-        height: 500px;
+        background: #0d131b;
+        height: 450px;
         margin: 0 20px;
     }
     .footerinfo{
         display: flex;
         justify-content: start;
         gap: 65px;
-        color: rgb(163, 159, 159);
+        color: rgb(189, 188, 188);
         padding-top: 20px;
         margin-left: 120px;
     }
@@ -345,16 +345,17 @@ h5{
         line-height: 20px;
     }
     .footernote1 span{
-        position: absolute;
+        position: relative;
         z-index: 1;
         border: none;
-        color: rgb(0, 17, 255);
+        color:white;
+        left: 14px;
     
     }
     .footernote1 button{
         position: relative;
-        left: -3px;
-        top: -1px;
+        left: 2px;
+        top: -1.5px;
         padding-left: 10px;
         text-align: center;
         z-index: 0;
@@ -366,6 +367,32 @@ h5{
         height: 12px;
         font-size: 9px;
         
+    }
+    .products-offer h5{
+        color: rgb(0, 157, 255);
+    }
+    .products-offer button{
+        background: rgb(147, 40, 40);
+        width: 85px;
+        height: 20px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+    }
+    .products-offer span{
+        color: rgb(0, 157, 255);
+    }
+    .choice{
+        background:rgb(0, 157, 255);
+        width: 120px;
+        height: 20px;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .gold{
+        color: goldenrod;
     }
 
 
