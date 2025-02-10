@@ -37,3 +37,5 @@ function changeSlide(){
             item.scrollLeft += e.deltaY;
         });
      }
+
+     
